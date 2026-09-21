@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+langchain-community<0.4.2
+langchain-openai
+langchain-huggingface
+langchain-pinecone
+pinecone-client
+pypdf
+sentence-transformers
+rank_bm25
+ragas
+datasets
+python-multipart
+streamlit
+requests

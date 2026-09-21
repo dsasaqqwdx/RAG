@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What BLEU score did the base Transformer model achieve on the WMT 2014 English-to-German translation task?",
+    "ground_truth": "The base Transformer model achieved a BLEU score of 27.3 on the WMT 2014 English-to-German translation task."
+  },
+  {
+    "question": "What BLEU score did the big Transformer model achieve on WMT 2014 English-to-German?",
+    "ground_truth": "The big Transformer model achieved a BLEU score of 28.4 on the WMT 2014 English-to-German translation task."
+  },
+  {
+    "question": "What mechanism does the Transformer use instead of recurrence or convolution?",
+    "ground_truth": "The Transformer relies entirely on attention mechanisms, specifically self-attention, instead of recurrence or convolution."
+  },
+  {
+    "question": "What optimizer was used to train the Transformer model?",
+    "ground_truth": "The Adam optimizer was used to train the model."
+  },
+  {
+    "question": "How many layers are in the Transformer's encoder and decoder stacks?",
+    "ground_truth": "Both the encoder and decoder are composed of a stack of N = 6 identical layers."
+  },
+  {
+    "question": "What is the dimensionality of the model's embeddings and sub-layer outputs?",
+    "ground_truth": "The model uses a dimensionality of d_model = 512 for embeddings and sub-layer outputs."
+  },
+  {
+    "question": "How many attention heads does the base model use?",
+    "ground_truth": "The base model uses h = 8 parallel attention heads."
+  },
+  {
+    "question": "What formula is used for positional encoding in the Transformer?",
+    "ground_truth": "The Transformer uses sine and cosine functions of different frequencies for positional encoding."
+  },
+  {
+    "question": "What was the training time and hardware used for the base model?",
+    "ground_truth": "The base model was trained for 100,000 steps or 12 hours on one machine with 8 NVIDIA P100 GPUs."
+  },
+  {
+    "question": "What dropout rate was used for the base model?",
+    "ground_truth": "A dropout rate of P_drop = 0.1 was used for the base model."
+  },
+  {
+    "question": "What vocabulary size was used for English-to-German translation?",
+    "ground_truth": "A byte-pair encoding vocabulary of about 37,000 tokens shared between source and target was used."
+  },
+  {
+    "question": "What is the main advantage of self-attention over recurrent layers according to the paper?",
+    "ground_truth": "Self-attention connects all positions with a constant number of sequentially executed operations, whereas recurrent layers require O(n) sequential operations, making self-attention faster when sequence length is smaller than representation dimensionality and more parallelizable."
+  },
+  {
+    "question": "What BLEU score did the Transformer achieve on WMT 2014 English-to-French?",
+    "ground_truth": "The big Transformer model achieved a BLEU score of 41.0 on the WMT 2014 English-to-French translation task."
+  },
+  {
+    "question": "What is the capital of France?",
+    "ground_truth": "This information is not contained in the provided paper."
+  }
+]

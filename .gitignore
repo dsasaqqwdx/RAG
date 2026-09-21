@@ -1,0 +1,25 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# data
+data/papers/
+data/ingested_manifest.json
+
+# python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# notebooks / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# os
+.DS_Store
+Thumbs.db
